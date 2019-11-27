@@ -1,0 +1,30 @@
+
+$color-fondo: #C2F0F8
+$color-letra: salmon
+
+.fondo
+    background-color: $color-fondo
+    color: $color-letra
+
+a
+    color: blue
+    &:visited
+        color: green
+    &:hover
+        color: red
+    &:active
+        color: yellow
+
+@mixin Titulo
+    font-size: 35px
+    font-family: Arial    
+    font-weight: bold
+    color: #D75CF5
+
+.titulo
+    @include Titulo
+
+.titulo-rojo
+    @extend .titulo
+    background-color: red
+

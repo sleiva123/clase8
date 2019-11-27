@@ -1,0 +1,30 @@
+.fondo {
+  background-color: #C2F0F8;
+  color: salmon;
+}
+
+a {
+  color: blue;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: yellow;
+}
+
+.titulo, .titulo-rojo {
+  font-size: 35px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #D75CF5;
+}
+
+.titulo-rojo {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
